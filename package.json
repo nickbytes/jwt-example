@@ -1,0 +1,9 @@
+{
+  "name": "jwt-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.4.0"
+  }
+}

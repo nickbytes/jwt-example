@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Congratulations! You just created your first deployment.</title>
+    <style>
+      body {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      main {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 36px;
+        margin-bottom: 40px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        max-width: 470px;
+        color: #444;
+        line-height: 26px;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 400;
+        color: rgb(0, 118, 255);;
+      }
+
+      code {
+        font-family: Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+        font-size: 14px;
+        color: rgb(212, 0, 255);
+      }
+
+      code::before,
+      code::after {
+        content: "`";
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="56" height="50" xmlns="http://www.w3.org/2000/svg" alt="First CLI Deployment" title="First CLI Deployment" height="50" width="55">
+      <g fill="none" fill-rule="evenodd">
+        <circle fill="#000" cx="25" cy="25" r="25"/>
+        <g stroke="#FFF">
+          <path stroke-width="1.25" d="M25 13.5l11 20H14z"/>
+          <path d="M34.872 32.929L24.718 14.07M35.436 32.929L25.282 14.07M34.308 32.929l-9.59-18.286M34.308 32.929l-9.59-17.715M24.154 15.214L34.308 32.93M33.744 33.5l-9.59-17.714" stroke-width="1.111"/>
+        </g>
+        <g transform="translate(35 28)" stroke="#000">
+          <circle stroke-width=".625" fill="#FFF" cx="10" cy="10" r="10"/>
+          <path stroke-width="2" d="M6 9.985l2.916 2.78L14.68 7"/>
+        </g>
+      </g>
+    </svg>
+
+    <main>
+      <h1>Congratulations</h1>
+
+      <p>You just created your first <b>Now</b> deployment.</p>
+
+      <p>What you are seeing is the <code>index.html</code> file deployed using <code>@now/static</code>. You can
+      access the <code>api.js</code> file deployed using <code>@now/node</code> right <a href="/api" target="_blank">here</a>.</p>
+
+      <p>Also make sure to check out the <a href="/_src" target="_blank">deployment source</a>.</p>
+    </main>
+  </body>
+</html>
