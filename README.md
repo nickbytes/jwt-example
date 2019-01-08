@@ -1,12 +1,3 @@
-# now-cli-starter
+# JWT authentication example with Now v2
 
-This is a simple project that makes a [static deployment](https://zeit.co/docs/deployment-types/static)
-to Now.
-
-## Deploying
-
-Just run:
-
-```
-now
-```
+WIP. Experimenting with Now 2's architecture + building APIs.
