@@ -3,7 +3,8 @@
   "name": "jwt-example",
   "builds": [
     { "src": "./api/v1/auth.js", "use": "@now/node" },
-    { "src": "./api/v1/users.js", "use": "@now/node" }
+    { "src": "./api/v1/users.js", "use": "@now/node" },
+    { "src": "./api/v1/getAllStatuses.js", "use": "@now/node" }
   ],
   "routes": [
     {
@@ -13,6 +14,10 @@
     {
       "src": "/api/v1/users",
       "dest": "/api/v1/users.js"
+    },
+    {
+      "src": "/api/v1/getAllStatuses",
+      "dest": "/api/v1/getAllStatuses.js"
     }
   ]
 }

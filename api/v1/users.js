@@ -1,9 +1,11 @@
 var jwt = require("jsonwebtoken");
-var constants = require("../../utils/notSecret");
 
 module.exports = (req, res) => {
   try {
-    const decoded = jwt.verify(req.headers.authorization, constants.secret);
+    const decoded = jwt.verify(
+      req.headers.authorization,
+      process.env.JWT_SECRET
+    );
     res.end(
       JSON.stringify({
         error: false,

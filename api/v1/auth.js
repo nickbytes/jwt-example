@@ -1,10 +1,7 @@
 var jwt = require("jsonwebtoken");
-var constants = require("../../utils/notSecret");
 
 module.exports = (req, res) => {
-  const secret = constants.secret;
-
-  var token = jwt.sign({ role: "user" }, secret, {
+  var token = jwt.sign({ role: "user" }, process.env.JWT_SECRET, {
     algorithm: "HS256",
     expiresIn: "1h"
   });
